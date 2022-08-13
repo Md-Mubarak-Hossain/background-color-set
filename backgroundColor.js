@@ -5,7 +5,7 @@ function set_background() {
     let i = prompt('Give your paragraph no,which paragraph background want to change:')
     let choiseColor = prompt('Enter your paragraph background color:');
     let firstparagraph = paragraphs[i];
-    firstparagraph.style.background = choiseColor;
+    firstparagraph.style.backgroundColor = choiseColor;
 
 
 }
